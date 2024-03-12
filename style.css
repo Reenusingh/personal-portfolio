@@ -267,6 +267,16 @@ form btn2{
     margin-top: 20px;
     border-radius: 7px;
 }
+.back-to-top{
+    color: #000;;
+    font-size: 30px;
+    float: right;
+    /* flex-basis: 10%; */
+}
+.back-to-top:hover{
+    color: #ff004f;
+    font-size: 40px;
+}
 
 /* ................................resposivenes.............. */
 
