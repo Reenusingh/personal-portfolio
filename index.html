@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio-Website</title>
     <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+
+
     <div id="header">
         <div class="container">
             <nav>
                 <h1><span>R</span>EENU.</h1>
-                
                 <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                
+
                 <div id="home">
-       
+
                     <div class="row">
-                       
-                        <div class="about-col-2">
+                        
+                        <div class="home-col-2">
                             <h1 class="sub-title">Hello, <br>I'm <span>Reenu</span> </h1>
                             <h2>From Moradabad</h2>
-                            <p>Front-End/Android Developer</p> 
+                            <p>Software Developer/Front-End Developer</p>
                         </div>
-                        <div class="about-col-1">
-                            <img src="./images/ReenuBG.png" alt="">
-                            <!-- <img src="images/reuser.png" alt=""> -->
-            
+                        <div class="home-col-1">
+                            <img src="./images/DEmo.jpg" alt="" height="90%">
+
+                            <audio autoplay loop>
+                                <source src="/images/Flute_Music_Background_Music(128k).mp3">
+                            </audio>
+
                         </div>
                     </div>
-                
-            </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -51,47 +59,67 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="./images/IMG_20211021_132615_315.jpg" alt="">
+                    <img src="./images/RS.jpg" alt="">
                     <!-- <img src="images/reuser.png" alt=""> -->
 
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>Hello, my name is Reenu. I'm persuing B.tech(CSE) from kothiwal institute of technologies moradabad. I have good knowledge of html, css, js c/cpp and python. I also developed some projects at college level in these languages.</p>
+                    <h1 class="sub-title"><span>A</span>bout Me</h1>
+                    <p>Hello, I'm Reenu! I hold a B.Tech degree in Computer Science and am currently working as a web developer. I am passionate about creating responsive, user-friendly websites and continuously strive to expand my skills in web technologies. My goal is to deliver efficient and visually appealing digital solutions.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
                     </div>
-                    <div class="tab-contents active-tab"id="skills">
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>HTML, CSS & JS</span><br>FrontEnd Development</li>
                             <li><span>C/CPP</span><br>Game Development</li>
-                            <li><span>App Development</span><br>Building Android Apps</li>
+                            <!-- <li><span>App Development</span><br>Building Android Apps</li> -->
+                            <li><span>Python, Java</span><br>Back-End Development</li>
+                            <li><span>Figma, CorelDraw</span><br>UI/UX Designing</li>
                         </ul>
                     </div>
-                    <div class="tab-contents"id="experience">
+                    <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>Fresher</span><br> I'm Fresher but I developed some projects using HTML, CSS, JS, C language and Core Python.</li>
+                            <li><span>Fresher</span><br> I'm Fresher but I worked on some college level projects by
+                                using HTML, CSS, JS, C language, Core Python and Java.</li>
                         </ul>
                     </div>
-                    <div class="tab-contents"id="education">
+                    <div class="tab-contents" id="certificate">
                         <ul>
-                            <li><span>2024</span><br>B.Tech in CSE from Kothiwal Institute Of Technology & Professional Studies Moradabad.</li>
+                            <li><span>Python</span><br>I have undertaken a comprehensive Python Programming Course,
+                                gaining hands-on experience in writing, debugging, and optimizing Python code.</li>
+                        </ul>
+                        <ul>
+                            <li><span>C/CPP</span><br>I have completed an in-depth C/C++ Programming Course, acquiring
+                                practical skills in writing, debugging, and optimizing C and C++ code. The course
+                                explored key areas such as data structures, algorithms, object-oriented programming, and
+                                memory management.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>B.Tech in CSE from Kothiwal Institute Of Technology & Professional
+                                Studies Moradabad.</li>
                             <li><span>2020</span><br>XII from Methodist Girl's Inter College Moradabad.</li>
                             <li><span>2018</span><br>X from Methodist Girl's Inter College Moradabad.</li>
                         </ul>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <!-- .............................projects................. -->
+    <div class="top-to-bottom"><a href="#contact"><i class="fa-solid fa-arrow-down"></i></a></div>
+    <div class="back-to-top"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></div>
 
     <div id="projects">
         <div class="container">
-            <h1 class="sub-title">My Projects</h1>
+            <h1 class="sub-title"><span>Pr</span>ojects</h1>
             <div class="projects-list">
                 <div>
                     <i class="fa-solid fa-gamepad"></i>
@@ -102,16 +130,17 @@
                         consisting Digits from 1 - 15 at random place,
                         and a blank space. Player's task is to sort the
                         4*4 matrix in non decreasing order.</p>
-                    <a href="https://github.com/Reenusingh/Number_shifting_game" target=" ">SourceCode</a>
+                    <button><a href="https://github.com/Reenusingh/Number_shifting_game"
+                            target=" ">SourceCode</a></button>
                 </div>
                 <div>
                     <i class="fa-solid fa-calculator"></i>
-                    
+
                     <h2>SMART CALC</h2>
                     <p>This is a terminal based Calculator. In this user
                         pass the input in the form of string based on
                         user’s input it give the output. it is developed using Core Python.</p>
-                    <a href="https://github.com/Reenusingh/smart_calc"target=" ">SourceCode</a>
+                    <button> <a href="https://github.com/Reenusingh/smart_calc" target=" ">SourceCode</a></button>
                 </div>
                 <div>
                     <i class="fa-solid fa-x"></i>
@@ -119,7 +148,7 @@
                     <p>This is a terminal based menu driven game. In this
                         game player can choose whether he want to play
                         with another player, computer or evil computer. It is developed using C language.</p>
-                    <a href="https://github.com/Reenusingh/Tic-Tac-Toe"target=" ">SourceCode</a>
+                    <button> <a href="https://github.com/Reenusingh/Tic-Tac-Toe" target=" ">SourceCode</a></button>
                 </div>
                 <!-- <div>
                     <i class="fa-solid fa-code"></i>
@@ -127,7 +156,7 @@
                     <p>it is simple a web based Digital Clock. It is developed using HTML, CSS, and JS(javascript)</p>
                     <a href="https://github.com/Reenusingh/Digital_Clock"target=" ">SourceCode</a>
                 </div> -->
-               
+
             </div>
         </div>
     </div>
@@ -137,57 +166,65 @@
     <div id="contact">
         <div class="container">
             <div class="row">
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <textarea name="feedback" rows="8" placeholder="Your Feedback"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-phone"></i>1234567890</p>
-                    <p><i class="fa-solid fa-envelope"></i>xyz@contact.com</p>
+                    <h1 class="sub-title"><span>Con</span>tact</h1>
+                    <!-- <p><i class="fa-solid fa-phone"></i>1234567890</p> -->
+                    <p><i class="fa-solid fa-envelope"></i>reenus706@gmail.com</p>
                     <div class="social-icons">
-                        <a href="https://x.com/Reenusi78091989?t=8iKJVZ88HiTvMQ4IkMVBNg&s=08"target=" "><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/reenu-singh-3a784422b/"target=" "><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://github.com/Reenusingh"target=" "><i class="fa-brands fa-github"></i></a>
-                        
+                        <a href="./https://x.com/Reenusi78091989?t=8iKJVZ88HiTvMQ4IkMVBNg&s=08" target=" "><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="./https://www.linkedin.com/in/reenu-singh-3a784422b/" target=" ">
+                            <i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="./https://github.com/Reenusingh" target=" "><i class="fa-brands fa-github"></i></a>
+
                     </div>
-                  <a href="./images/Reenu's_Resume.pdf"class="btn btn2"target=" ">Download CV</a> 
-            </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name"placeholder="Enter Your Name" required>
-                    <input type="email" name="email"placeholder="Enter Your Email" required>
-                    <textarea name="feedback"rows="8"placeholder="Your Feedback"></textarea>
-                    <button type="submit"class="btn btn2">Submit</button>
-                </form>   
-            </div>
-        </div>
-        <div class="copyright">
-            <p>made by &commat; Reenu.</p>
-            <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i>
-            </a>
-        </div>
-    </div>
-    <script>
-        var tablinks =document.getElementsByClassName("tab-links");
-        var tabcontents =document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove('active-tab');
-            }
-            event.currentTarget.classList.add('active-link');
-           document.getElementById(tabname).classList.add('active-tab')
-        }
-    </script>
-    <script>
-        var sidemen= document.getElementById("sidemenu");
+                    <a href="./images/Resume.pdf" class="btn btn2" target=" ">Download CV</a>
+                </div>
 
-        function openmenu(){
-            sidemen.style.right="0";
-        }
+            </div>
 
-        function closemenu(){
-            sidemen.style.right = "-200px";
-        }
-    </script>
+            <div class="copyright">
+                <p>made with &#9829; by &commat; Reenu.</p>
+
+
+
+            </div>
+
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabname).classList.add('active-tab')
+            }
+        </script>
+        <script>
+            var sidemen = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemen.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemen.style.right = "-200px";
+            }
+        </script>
 </body>
+
 </html>
